@@ -1,0 +1,73 @@
+body{
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;  
+}
+.container {
+background-image: url(eric-niklas-eCyBV7uz9JA-unsplash.jpg);
+height: 1300px;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+background-position: center;
+background-color: rgb(253,253,253);
+}
+.text{
+text-align: center;
+}
+h1{
+color:rgb(4,162,218);
+}
+p{
+font-weight: bolder;
+font-size: 25px;
+color:#ee7c0c;
+}
+.dare{
+color: #6767b2;
+}
+span{
+color:rgb(184, 27, 147);
+}
+input{
+padding: 10px;
+font-size: 15px;
+background-color: #d0d7de;
+color: black;
+}
+button{
+font-size: 30px;
+margin-bottom: 10px;
+cursor: pointer;
+padding: 10px 25px;
+border-radius: 5px;
+background: transparent;
+color: black;
+border: rgb(184, 27, 147) 3px dotted;
+}      
+/*Ipad Air*/
+@media all and (max-width: 800px) {
+}
+/*Iphone 14 pro max*/
+@media all and (max-width: 430px) {
+h1{
+font-size:25px;
+}
+p{
+font-size: 20px;
+}
+}
+/*Galaxy Fold*/
+@media all and (max-width: 280px) {
+h1{
+font-size:18px;
+}
+p{
+font-size: 17px;
+}
+h3{
+font-size: medium;
+}
+button{
+font-size: 20px;
+}
+}
